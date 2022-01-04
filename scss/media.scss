@@ -1,0 +1,113 @@
+@media(max-width: 1200px){
+  main .container .c-content{
+    flex-direction: column;
+
+    .c-text{
+      order: 2;
+      padding: 20px;
+    }
+
+    .c-img{
+      order: 1;
+    }
+  }
+
+}
+
+
+@media(max-width: 1000px){
+  header {
+    width: 100%;
+
+    .header h1{
+      width: 90%;
+    }
+    .header .head-signup{
+      flex-direction: column;
+  
+      input{
+        margin-bottom: 5px;
+        margin-right: 0;
+      }
+    }
+
+  }
+  
+
+  main{
+    width: 100%;
+
+    .under-header{
+      flex-direction: column;
+      
+      .box{
+          padding: 0;
+      }
+    }
+
+    .review-container .reviews{
+      flex-direction: column;
+  
+      .review{
+        margin-bottom: 25px;
+        .face{
+          width: 25%;
+        }
+      }
+    }
+
+    .btm-banner{
+      flex-direction: column;
+  
+      .btm-signup{
+        flex-direction: column;
+  
+        input{
+          margin-bottom: 5px;
+          margin-right: 0;
+        }
+      }
+    }
+
+    .btm-nav{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      line-height: 25px;
+      
+    }
+    p{
+      text-align: center;
+    }
+  }
+
+}
+
+@media(max-width: 500px){
+    .header .head-signup{
+      flex-direction: column;
+      width: 90%;
+    }
+    .btm-signup{
+      flex-direction: column;
+      width: 90%;
+    }
+
+    main .review-container .reviews{
+      flex-direction: column;
+      .review{
+        margin-bottom: 25px;
+
+        p{
+          width: 90%;
+        }
+        
+        .face{
+          width: 45%;
+        }
+      }
+    }
+
+
+
+  }

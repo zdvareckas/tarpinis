@@ -1,0 +1,70 @@
+header{
+  display: flex;
+  flex-direction: column;
+  width:$header-width;
+  margin: 0 auto;
+
+  .top-signin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    width: 70%;
+    
+    .signin-btn{
+      color: $btn-txtcolor;
+      background-color: $btn-bgcolor;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+  
+  .header{
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    
+      background: url('../images/bg-masthead.jpg');
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      margin: 0 auto;
+    
+  
+      h1{
+        width: 28%;
+        text-align: center;
+        color: $header-txtcolor;
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+    
+      .head-signup{
+        display: flex;
+        flex-direction: row;
+    
+        .h-btn{
+          color: $btn-txtcolor;
+          background-color: $btn-bgcolor;
+          padding: 10px 30px;
+          border: none;
+          border-radius: 5px;
+        }
+    
+        input{
+        margin-right: 5px;
+        }
+    
+        .email{
+          padding: 10px 130px 10px 10px;
+          border: none;
+          border-radius: 5px;
+          text-align: left;
+         }
+      }
+  }
+}
+
